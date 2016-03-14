@@ -1,0 +1,10 @@
+Hi, how are you?
+I have a problem with respect to file index.php in the line 42 and 128 I have a error.
+  
+  LINE 42: $file = $_REQUEST['file']?: '.';
+  LINE 128: return intval($ini_v) * ($s[strtolower(substr($ini_v,-1))] ?: 1);
+  
+To execute in a sample this server error:
+Parse error: syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/a6715135/public_html/Carpeta/index.php on line 128
+
+I hope to help me solve this problem, thanks.
